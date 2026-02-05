@@ -1,0 +1,29 @@
+{
+  "programming_languages": {
+    "python": ["python"],
+    "cpp": ["c++", "cpp"],
+    "java": ["java"]
+  },
+  "ml_ai": {
+    "machine learning": ["machine learning", "ml"],
+    "deep learning": ["deep learning", "dl"],
+    "pytorch": ["pytorch", "torch"],
+    "tensorflow": ["tensorflow"],
+    "transformers": ["transformers", "attention models"]
+  },
+  "genai": {
+    "llm": ["llm", "large language model"],
+    "langchain": ["langchain"],
+    "rag": ["retrieval augmented generation", "rag"]
+  },
+  "data": {
+    "numpy": ["numpy"],
+    "pandas": ["pandas"],
+    "sql": ["sql"]
+  },
+  "deployment": {
+    "docker": ["docker"],
+    "fastapi": ["fastapi"],
+    "streamlit": ["streamlit"]
+  }
+}
