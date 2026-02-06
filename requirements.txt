@@ -3,7 +3,7 @@ spacy
 sentence-transformers
 scikit-learn
 langchain
-openai
+langchain-google-genai
 fastapi
 uvicorn
 streamlit

@@ -44,3 +44,6 @@ def merge_and_score_skills(extracted: Dict) -> Dict:
         skill_scores[skill] = max(skill_scores.get(skill, 0), 1.0)
 
     return skill_scores
+
+def extract_jd_skills(jd_text: str, taxonomy: dict):
+    return extract_skills_rule_based(jd_text, taxonomy)

@@ -1,29 +1,113 @@
 {
   "programming_languages": {
-    "python": ["python"],
+    "python": ["python", "py"],
     "cpp": ["c++", "cpp"],
-    "java": ["java"]
+    "java": ["java"],
+    "javascript": ["javascript", "js"],
+    "typescript": ["typescript", "ts"],
+    "go": ["go", "golang"],
+    "r": ["r", "r language"],
+    "scala": ["scala"]
   },
   "ml_ai": {
     "machine learning": ["machine learning", "ml"],
     "deep learning": ["deep learning", "dl"],
     "pytorch": ["pytorch", "torch"],
-    "tensorflow": ["tensorflow"],
-    "transformers": ["transformers", "attention models"]
+    "tensorflow": ["tensorflow", "tf"],
+    "keras": ["keras"],
+    "scikit-learn": ["scikit-learn", "sklearn"],
+    "xgboost": ["xgboost"],
+    "lightgbm": ["lightgbm", "lgbm"],
+    "catboost": ["catboost"],
+    "transformers": ["transformers", "attention models"],
+    "computer vision": ["computer vision", "cv"],
+    "nlp": ["nlp", "natural language processing"],
+    "speech": ["speech", "asr", "speech recognition"],
+    "reinforcement learning": ["reinforcement learning", "rl"],
+    "time series": ["time series", "forecasting"],
+    "recommendation systems": ["recommendation systems", "recommender systems"]
   },
   "genai": {
     "llm": ["llm", "large language model"],
     "langchain": ["langchain"],
-    "rag": ["retrieval augmented generation", "rag"]
+    "llamaindex": ["llamaindex", "llama index"],
+    "rag": ["retrieval augmented generation", "rag"],
+    "prompt engineering": ["prompt engineering", "prompting"],
+    "vector databases": ["vector database", "vector db", "vectordb"],
+    "embeddings": ["embeddings", "embedding"],
+    "fine-tuning": ["fine-tuning", "finetuning", "fine tuning"],
+    "peft": ["peft", "parameter efficient fine tuning"],
+    "lora": ["lora", "low rank adaptation"],
+    "evaluation": ["evaluation", "evals", "model evaluation"],
+    "guardrails": ["guardrails", "safety filters"]
   },
   "data": {
     "numpy": ["numpy"],
     "pandas": ["pandas"],
-    "sql": ["sql"]
+    "scipy": ["scipy"],
+    "sql": ["sql"],
+    "spark": ["spark", "pyspark"],
+    "data pipelines": ["data pipelines", "data pipeline", "etl", "elt"],
+    "feature engineering": ["feature engineering", "feature extraction"],
+    "data visualization": ["data visualization", "data viz", "matplotlib", "seaborn", "plotly"]
   },
   "deployment": {
     "docker": ["docker"],
+    "kubernetes": ["kubernetes", "k8s"],
     "fastapi": ["fastapi"],
-    "streamlit": ["streamlit"]
+    "streamlit": ["streamlit"],
+    "flask": ["flask"],
+    "grpc": ["grpc"],
+    "onnx": ["onnx"],
+    "triton": ["triton", "nvidia triton"],
+    "tensorrt": ["tensorrt", "tensor rt"]
+  },
+  "mlops": {
+    "mlflow": ["mlflow"],
+    "wandb": ["wandb", "weights and biases"],
+    "dvc": ["dvc", "data version control"],
+    "airflow": ["airflow", "apache airflow"],
+    "prefect": ["prefect"],
+    "kubeflow": ["kubeflow"],
+    "ray": ["ray"],
+    "monitoring": ["monitoring", "observability"],
+    "model serving": ["model serving", "serving", "inference service"],
+    "ci/cd": ["ci/cd", "cicd", "continuous integration", "continuous delivery"]
+  },
+  "cloud": {
+    "aws": ["aws", "amazon web services"],
+    "gcp": ["gcp", "google cloud", "google cloud platform"],
+    "azure": ["azure", "microsoft azure"],
+    "sagemaker": ["sagemaker", "sage maker"],
+    "vertex ai": ["vertex ai", "vertexai"],
+    "azure ml": ["azure ml", "azure machine learning"]
+  },
+  "tools": {
+    "git": ["git", "github", "gitlab"],
+    "linux": ["linux", "bash", "shell"],
+    "jupyter": ["jupyter", "jupyter notebook"],
+    "pytest": ["pytest"],
+    "black": ["black", "black formatter"]
+  },
+  "databases": {
+    "postgres": ["postgres", "postgresql"],
+    "mysql": ["mysql"],
+    "mongodb": ["mongodb", "mongo"],
+    "redis": ["redis"],
+    "elasticsearch": ["elasticsearch", "elastic search"]
+  },
+  "vector_db": {
+    "faiss": ["faiss"],
+    "milvus": ["milvus"],
+    "pinecone": ["pinecone"],
+    "weaviate": ["weaviate"],
+    "chroma": ["chroma", "chromadb"],
+    "qdrant": ["qdrant"]
+  },
+  "math": {
+    "statistics": ["statistics", "statistical modeling"],
+    "linear algebra": ["linear algebra"],
+    "probability": ["probability", "probabilistic modeling"],
+    "optimization": ["optimization", "convex optimization"]
   }
 }
